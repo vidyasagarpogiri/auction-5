@@ -14,7 +14,7 @@ table
       td = player.club
       td = link_to 'Show', player
       td = link_to 'Edit', edit_player_path(player)
-      td = link_to 'Destroy', player, :confirm => 'Are you sure?', :method => :delete
+      td = link_to 'Destroy', player, :data => { :confirm => 'Are you sure?' }, :method => :delete
 
 br
 
